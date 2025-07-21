@@ -14,3 +14,8 @@ greeting = "Hello"
 parts = [greeting, name]
 print(" ".join(parts) + "! You are " + str(age) + " years old.")
 #7.using End parameter
+print("Hello,", end="")
+print("jspsyam")
+# 8. escape sequences
+print("Hello,\nWorld!")
+print('\'jsp syam\'')
