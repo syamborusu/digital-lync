@@ -16,6 +16,6 @@ print(" ".join(parts) + "! You are " + str(age) + " years old.")
 #7.using End parameter
 print("Hello,", end="")
 print("jspsyam")
-# 8. escape sequences
+# 8. escape sequence
 print("Hello,\nWorld!")
 print('\'jsp syam\'')
