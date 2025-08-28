@@ -3,5 +3,5 @@
 # verify if api is responding / working
 import requests 
 
-response_status = requests.get('https://www.python.org/ravi')
+response_status = requests.get('https://www.python.org')
 print(response_status)
