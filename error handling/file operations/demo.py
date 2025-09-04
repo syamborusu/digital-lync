@@ -12,7 +12,7 @@ with open("file.txt","r") as New_file:
     #print(New_file.readline())   #read line by line
     #print(New_file.readlines())   #read all the line and store in list
     for line in New_file.readlines():
-        print(line.strip()) 
+        print(line.strip())
 
     #WRITE MODE
 with open("new.txt","w") as new_file:
@@ -27,7 +27,6 @@ with open("new.txt","w") as new_file:
     #APPEND MODE
 with open("new.txt","a") as new_file:  
     new_file.writelines(["welcome to HYDERABAD\n","welcome to INDIA\n","welcome to WORLD\n"])
-
 
 #DELETE A FILE
 #OS MODULE
